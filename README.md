@@ -44,6 +44,7 @@ The final Gold-layer data is used to create an interactive **Railway Data Engine
 
 
 ## 📂 Project Structure
+'''
 railway-data-engineering/
 │
 ├── 01_Bronze_Railway_Ingestion.ipynb
@@ -51,7 +52,7 @@ railway-data-engineering/
 ├── 03_Gold_Railway_Aggregation.ipynb
 ├── 04_Data_Quality_Audit.ipynb
 └── README.md
-
+'''
 ## 🥉 Bronze Layer
 
 The Bronze layer ingests raw railway data into Databricks.
