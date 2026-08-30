@@ -16,31 +16,32 @@ The final Gold-layer data is used to create an interactive **Railway Data Engine
 
 ## 🏗️ Architecture
 
-  RAW RAILWAY CSV
-         │
-         ▼
- ┌───────────────────┐
- │   BRONZE LAYER    │
- │ Raw Data Ingestion│
- └─────────┬─────────┘
-           │
-           ▼
- ┌───────────────────┐
- │   SILVER LAYER    │
- │ Cleaning &        │
- │ Transformation    │
- └─────────┬─────────┘
-           │
-           ▼
- ┌───────────────────┐
- │    GOLD LAYER     │
- │ Aggregation &     │
- │ Analytics         │
- └─────────┬─────────┘
-           │
-┌───────────┴───────────┐
-▼                       ▼
-Data Quality Audit      Databricks Dashboard
+                   RAW RAILWAY CSV
+                          │
+                          ▼
+                ┌───────────────────┐
+                │   BRONZE LAYER    │
+                │ Raw Data Ingestion │
+                └─────────┬─────────┘
+                          │
+                          ▼
+                ┌───────────────────┐
+                │   SILVER LAYER    │
+                │ Cleaning &        │
+                │ Transformation    │
+                └─────────┬─────────┘
+                          │
+                          ▼
+                ┌───────────────────┐
+                │    GOLD LAYER     │
+                │ Aggregation &     │
+                │ Analytics         │
+                └─────────┬─────────┘
+                          │
+              ┌───────────┴───────────┐
+              ▼                       ▼
+       Data Quality Audit      Databricks Dashboard
+
 
 ## 📂 Project Structure
 railway-data-engineering/
