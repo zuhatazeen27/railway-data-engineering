@@ -243,3 +243,12 @@ GitHub: [@zuhatazeen27](https://github.com/zuhatazeen27)
 - ✓ Databricks Dashboard
 - ✓ Git & GitHub
 - ✓ 11K+ Railway Records Analyzed
+## 📸 Dashboard Preview
+
+### Railway Data Engineering Dashboard
+
+![Railway Data Engineering Dashboard](a4f556d4-01c4-4e30-920d-92bdd1b8749c.png)
+
+### Top 10 Railway Routes
+
+![Top 10 Railway Routes](52023470-d0c0-4d49-b24b-47ec808e6f7b.png)
